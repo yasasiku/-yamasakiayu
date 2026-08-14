@@ -1,0 +1,439 @@
+body{
+    margin:0;
+    background:blue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.logo{
+    width: 500px;
+    filter: brightness(0) invert(1);
+    
+    position: fixed;
+    top: 50px;
+    right: 30px;
+}
+
+.photo1{
+  width: 300px;
+  position: fixed;
+  top: 310px;
+  left: 100px;
+}
+
+.photo2{
+  width: 2000px;
+  position: fixed;
+  top: -520px;
+  left: -500px;
+}
+
+.photo3{
+    width: 230px;
+    position: fixed;
+    top: 300px;
+    left: 870px;
+}
+
+.photo4{
+  width: 500px;
+  position: fixed;
+  top: 230px;
+  left: 900px;
+}
+
+.photo5{
+  width: 100px;
+  position: fixed;
+  top: 570px;
+  left: 700px;
+}
+
+.photo6{
+  width: 350px;
+  position: fixed;
+  top: 530px;
+  left: 200px;
+}
+
+.photo7{
+  width: 400px;
+  position: fixed;
+  top: 400px;
+  left: 600px;
+}
+
+.photo8{
+  width: 150px;
+  position: fixed;
+  top: 230px;
+  left: 680px;
+}
+
+.photo9{
+  width: 600px;
+  position: fixed;
+  top: 570px;
+  left: 850px;
+}
+
+.photo10{
+  width: 500px;
+  position: fixed;
+  top: 300px;
+  left: 1000px;
+}
+
+.photo11{
+  width: 500px;
+  position: fixed;
+  top: 150px;
+  left: 900px;
+}
+
+.photo12{
+  width: 500px;
+  position: fixed;
+  top: 150px;
+  left: 1100px;
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+
+  position: fixed;
+  top: 200px;
+  left: 100px;
+}
+
+.text1{
+color: white;
+font-size: 20px;
+position: fixed;
+top: 410px;
+left:250px;
+}
+
+.text2{
+color: white;
+font-size: 20px;
+position: fixed;
+top: 380px;
+left:710px;
+}
+.text3{
+color: white;
+font-size: 20px;
+position: fixed;
+top: 300px;
+left:1000px;
+}
+
+.text4{
+color: white;
+font-size: 20px;
+position: fixed;
+top: 180px;
+left:780px;
+}
+
+.text5{
+color: white;
+font-size: 20px;
+position: fixed;
+top: 560px;
+left:1350px;
+}
+
+.text6{
+color: white;
+font-size: 25px;
+position: fixed;
+top: 18px;
+left:1000px;
+}
+
+.page2 {
+    background: black;
+}
+
+.photo13{
+  width: 1000px;
+  position: fixed;
+  top: 50px;
+  left: 280px;
+}
+
+.photo14{
+  width: 500px;
+  position: fixed;
+  top: 40px;
+  left: -40px;
+}
+.photo15{
+  width: 90px;
+  position: fixed;
+  top: 300px;
+  left: 700px;
+}
+.photo16{
+  width: 200px;
+  position: fixed;
+  top: 500px;
+  left: 1100px;
+}
+.photo17{
+  width: 300px;
+  position: fixed;
+  top: 70px;
+  left: 1170px;
+}
+.page2-text {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 300px;
+    left: 50px;
+}
+
+.page2-text2 {
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    top: 30px;
+    left: 1180px;
+}
+.photo18{
+  width: 1400px;
+  position: fixed;
+  top: -80px;
+  left: 150px;
+}
+.photo19{
+  width: 500px;
+  position: fixed;
+  top: 430px;
+  left:-50px;
+}
+.page3-text {
+    color: rgb(32, 32, 38);
+    font-size: 30px;
+    position: fixed;
+    top: 550px;
+    left: 340px;
+}
+
+.photo22{
+  width: 1400px;
+  position: fixed;
+  top: -20px;
+  left:100px;
+}
+.photo23{
+  width: 400px;
+  position: fixed;
+  top: 400px;
+  left:40px;
+}
+
+.page4-text {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 580px;
+    left: 300px;}
+
+.photo20{
+  width: 1580px;
+  position: fixed;
+  top: -40px;
+  left:0px;
+}    
+.photo21{
+  width: 1100px;
+  position: fixed;
+  top: 0px;
+  left:400px;
+}
+
+.page5-text {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 580px;
+    left: 300px;}
+
+.photo24{
+  width: 700px;
+  position: fixed;
+  top:50px;
+  left:580px;
+}    
+
+.photo25{
+  width: 400px;
+  position: fixed;
+  top:300px;
+  left:800px;
+}    
+
+.ticker {
+
+  width: 100%;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+}
+
+.ticker-text {
+
+  display: inline-block;
+
+  padding-left: 100%;
+
+  animation: ticker 10s linear infinite;
+
+  color: white;
+
+  font-size: 30px;
+
+}
+
+@keyframes ticker{
+
+  from {
+
+    transform: translateX(0);
+
+  }
+
+  to {
+
+    transform: translateX(-100%);
+
+}
+}
+.ticker {
+
+  width: 100%;
+ overflow: hidden;
+
+  white-space: nowrap;
+position: relative;
+  top: -310px
+}
+
+.ticker-text {
+
+  display: inline-block;
+
+  padding-left: 100%;
+
+  animation: ticker 10s linear infinite;
+
+  color: white;
+
+  font-size: 50px;
+
+  font-family:"Yu Gothic", sans-serif;
+  position: relative;
+  top: 0px;
+z-index: 9999;}
+
+
+
+@keyframes ticker {
+
+  from {
+
+    transform: translateX(0);
+
+  }
+
+  to {
+
+    transform: translateX(-100%);
+
+  }
+
+}
+
+@keyframes rainbow-flash {
+  0% {
+    filter: drop-shadow(0 0 15px red);
+  }
+  20% {
+    filter: drop-shadow(0 0 15px yellow);
+  }
+  40% {
+    filter: drop-shadow(0 0 15px green);
+  }
+  60% {
+    filter: drop-shadow(0 0 15px cyan);
+  }
+  80% {
+    filter: drop-shadow(0 0 15px blue);
+  }
+  100% {
+    filter: drop-shadow(0 0 15px magenta);
+  }
+}
+
+.rainbow-image {
+  animation: rainbow-flash 2s linear infinite;
+}
+
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10000;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.home-page {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3) 2px, transparent 2px);
+  background-size: 20px 20px;
+}
+
+.welcome-body {
+  background-color: #ffffff;
+}
+
+.star-link {
+  display: inline-block;
+  font-size: 150px;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.star-link:hover {
+  transform: scale(1.1);
+}
