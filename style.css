@@ -494,3 +494,12 @@ p, .page6-text {
   line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+  body {
+    transform: scale(0.35) !important;
+    transform-origin: top center !important;
+    width: 285vw !important;
+    height: 285vh !important;
+    overflow: hidden !important;
+  }
+}
