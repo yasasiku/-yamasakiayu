@@ -465,4 +465,32 @@ z-index: 9999;}
 
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+img, 
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6,
+.photo7, .photo8, .photo9, .photo10, .photo11, .photo12, .photo26 {
+  max-width: 90% !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+p, .page6-text {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  margin: 15px auto;
+  line-height: 1.6;
+}
 
