@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,12 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>スタート画面</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .welcome-body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo26 {
+      max-width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .star-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+   
+    .page6-text {
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body class="welcome-body">
 
- <div style="display: flex; justify-content: center; align-items: center; height: 100vh; position: relative; z-index: 100;">
-    <a href="home.html" class="star-link" style="position: relative; z-index: 10000; text-decoration: none;">★</a>
+  <img src="images/26.png" class="photo26">
+
+  <div class="star-container">
+    <a href="home.html" class="star-link">★</a>
   </div>
+
+  <p class="page6-text">
+    このサイトは私の自作ホームページです。<br>
+    星を押すと次のページに飛びます
+  </p>
 
 </body>
 </html>

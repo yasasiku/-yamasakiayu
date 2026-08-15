@@ -287,6 +287,13 @@ left:1000px;
   top:300px;
   left:800px;
 }    
+.photo26{
+  width: 200px;
+  position: fixed;
+  top:0px;
+  left:1300px;
+}
+
 
 .ticker {
 
@@ -457,3 +464,5 @@ z-index: 9999;}
   }
 
 }
+
+
