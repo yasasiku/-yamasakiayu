@@ -13,12 +13,14 @@ body {
 }
 </style>
 </head>
-
+<script src="script.js"></script>
 <body>
 <button onclick="history.back()" class="back-button">← もどる</button>
 
 <img src="images/22.png" class="photo22">
 <img src="images/23.png" class="photo23">
+
+
 
 <p class="page4-text">
  昔からのやってみたいこととして歯をピアノに変えてみたいというものがあります <br>
@@ -26,5 +28,16 @@ body {
 幼いころにピアノを習っていましたが向いておらず一年ほどで辞めました
 
 </p>
+
+<p class="sound-text" style="position:fixed; top:200px; left:380px;font-family: '游ゴシック'，'Yu Gothic'，sans-serif !important;" onclick="playSound()">ド</p>
+<audio id="sound" src="images/osiri.mp3"></audio>
+
+<p class="sound-text2" style="position:fixed; top:200px; left:500px;font-family: sans-serif;" onclick="playSound2()">レ</p>
+<audio id="sound2" src="images/mannko.mp3"></audio>
+<p class="sound-text3" style="position:fixed; top:200px; left:630px;font-family: sans-serif;" onclick="playSound3()">ミ</p>
+<audio id="sound3" src="images/み.mp3"></audio>
+<p class="sound-text4" style="position:fixed; top:200px; left:720px;font-family: sans-serif;" onclick="playSound4()">ファ</p>
+<audio id="sound4" src="images/ふぁ.mp3"></audio>
+<p class="sound-text5" style="position:fixed; top:200px; left:810px;font-family: sans-serif;" onclick="playSound5()">ソ</p>
+<audio id="sound5" src="images/そ.mp3"></audio>
 </body>
-</html>

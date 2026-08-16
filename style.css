@@ -24,10 +24,10 @@ body{
 }
 
 .photo2{
-  width: 2000px;
+  width: 2300px;
   position: fixed;
-  top: -520px;
-  left: -500px;
+  top:-700px;
+  left: -700px;
 }
 
 .photo3{
@@ -59,9 +59,9 @@ body{
 }
 
 .photo7{
-  width: 400px;
+  width: 200px;
   position: fixed;
-  top: 400px;
+  top: 350px;
   left: 600px;
 }
 
@@ -113,8 +113,8 @@ body{
   font-size: 20px;
 
   position: fixed;
-  top: 200px;
-  left: 100px;
+  top: 210px;
+  left: -50px;
 }
 
 .text1{
@@ -122,38 +122,38 @@ color: white;
 font-size: 20px;
 position: fixed;
 top: 410px;
-left:250px;
+left:10px;
 }
 
 .text2{
 color: white;
 font-size: 20px;
 position: fixed;
-top: 380px;
-left:710px;
+top: 280px;
+left:750px;
 }
 .text3{
 color: white;
 font-size: 20px;
 position: fixed;
-top: 300px;
-left:1000px;
+top: 380px;
+left:480px;
 }
 
 .text4{
 color: white;
 font-size: 20px;
 position: fixed;
-top: 180px;
-left:780px;
+top:550px;
+left:600px;
 }
 
 .text5{
 color: white;
 font-size: 20px;
 position: fixed;
-top: 560px;
-left:1350px;
+top: 180px;
+left:480px;
 }
 
 .text6{
@@ -163,6 +163,7 @@ position: fixed;
 top: 18px;
 left:1000px;
 }
+
 
 .page2 {
     background: black;
@@ -204,15 +205,15 @@ left:1000px;
     font-size: 20px;
     position: fixed;
     top: 300px;
-    left: 50px;
+    left: -50px;
 }
 
 .page2-text2 {
     color: white;
     font-size: 40px;
     position: fixed;
-    top: 30px;
-    left: 1180px;
+    top: 50px;
+    left: 960px;
 }
 .photo18{
   width: 1400px;
@@ -228,10 +229,10 @@ left:1000px;
 }
 .page3-text {
     color: rgb(32, 32, 38);
-    font-size: 30px;
+    font-size: 25px;
     position: fixed;
     top: 550px;
-    left: 340px;
+    left: 180px;
 }
 
 .photo22{
@@ -247,13 +248,17 @@ left:1000px;
   left:40px;
 }
 
+
 .page4-text {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     position: fixed;
-    top: 580px;
-    left: 300px;}
-
+    top: 600px;
+    left: 300px;
+    text-align: left;
+    width: 650px;
+    line-height: 1.5;
+}
 .photo20{
   width: 1580px;
   position: fixed;
@@ -477,14 +482,7 @@ body {
 }
 
 
-img, 
-.photo1, .photo2, .photo3, .photo4, .photo5, .photo6,
-.photo7, .photo8, .photo9, .photo10, .photo11, .photo12, .photo26 {
-  max-width: 90% !important;
-  height: auto !important;
-  display: block;
-  margin: 0 auto;
-}
+
 
 p, .page6-text {
   text-align: center;
@@ -502,4 +500,75 @@ p, .page6-text {
     height: 285vh !important;
     overflow: hidden !important;
   }
+}
+
+.home-page {
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+
+.home-page .text{
+  text-align: left !important;
+  margin-left: 10% !important;
+  margin-right: auto !important;
+}
+click-effect {
+  transition: transform 0.1s ease;
+  cursor: pointer; 
+}
+
+.click-effect:active {
+  transform: scale(0.95);
+}
+
+.sound-text {
+    position: fixed;
+    top: 400px;
+    left: 300px;
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+    width: max-content;
+    font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+.sound-text2 {
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    width: max-content;
+    font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+.sound-text3{
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    width: max-content;
+    font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+.sound-text4 {
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    width: max-content;
+    font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+.sound-text5 {
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    width: max-content;
+    font-family: "Yu Gothic UI”, sans-serif;
 }
